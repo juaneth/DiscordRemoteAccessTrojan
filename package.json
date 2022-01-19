@@ -1,0 +1,15 @@
+{
+  "name": "discord-rat",
+  "version": "1.0.0",
+  "description": "A RAT that connects via discord bot and has a couple cool remote control feautures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "public-ip": "^5.0.0"
+  }
+}
