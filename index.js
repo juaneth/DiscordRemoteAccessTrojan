@@ -48,6 +48,12 @@ client.on('message', message => {
     if (command === 'ipv4') {
         client.commands.get('ipv4').execute(message, client, args, Discord);
     }
+    if (command === 'register') {
+        client.commands.get('register').execute(message, client, args, Discord);
+    }
+    if (command === 'keylogger') {
+        client.commands.get('keylogger').execute(message, client, args, Discord);
+    }
 })
 
 
