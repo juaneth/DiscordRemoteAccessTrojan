@@ -32,6 +32,7 @@ module.exports = {
                         embeds: [registerembed]
                     })
                 }
+
                 if (args[1] == undefined) {
                     const registerembed = new Discord.MessageEmbed()
                         .setColor(`RANDOM`)
