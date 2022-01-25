@@ -1,0 +1,37 @@
+{
+  "name": "keylogger.js",
+  "version": "0.0.4",
+  "description": "A simple Node.js keylogger for Windows and macOS",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "gypfile": true,
+  "files": [
+    "src/**/*",
+    "binding.gyp"
+  ],
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabuhijleh/keylogger.js.git"
+  },
+  "keywords": [
+    "node",
+    "keylogger",
+    "native"
+  ],
+  "author": {
+    "name": "Abdurrahman Abu-Hijleh",
+    "email": "aabuhijleh@asaltech.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aabuhijleh/keylogger.js/issues"
+  },
+  "homepage": "https://github.com/aabuhijleh/keylogger.js#readme"
+}
